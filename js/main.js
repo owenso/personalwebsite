@@ -1,0 +1,1 @@
+console.log('Hi! Thanks for taking a look at my code, and I hope you like what you see!');
