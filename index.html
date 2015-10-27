@@ -3,11 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Owens O'Brien</title>
+      <!-- load bootstrap and fontawesome via CDN -->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+
+      <!-- load angular and angular route via CDN -->
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
 </head>
 <body>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="js/main.js"></script>
+<header>
+            <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Angular Routing Example</a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
+                    <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
+                </ul>
+            </div>
+            </nav>
+        </header>
 	<nav>
 		<ul>
 			<li>Me</li>
@@ -16,13 +38,19 @@
 			<li>Contact</li>
 		</ul>
 	</nav>
+    <!-- MAIN CONTENT AND INJECTED VIEWS -->
+  <div id="main">
+
+      <!-- angular templating -->
+      <!-- this is where content will be injected -->
+
+  </div>
 	<div id ="contact-info-div">
 		<p>Email: hi@owenso.com</p>
 		<p>Phone: 347-83-OWENS(8367) <!-- NEEDS FIXING -->
-		<p>Currently Based Out of: New York City</p>
 	</div>
-</body>
 <footer>
 	<p>&copy; 2015 <a href=mailto:him@owenso.com>Owens O'Brien.</a>
 </footer>
+</body>
 </html>
