@@ -7,7 +7,7 @@ window.onload=function(){
 
 
 var expandPhone = function(){
-	$('#clickresult').hide().html('<p>Phone: 347-83-OWENS(9367)</p>').fadeIn(400);
+	$('#clickresult').hide().html('<p>Phone: 347-83-OWENS(69367)</p>').fadeIn(400);
 };
 
 var expandEmail = function(){

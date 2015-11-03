@@ -8,8 +8,8 @@
 			<link rel="stylesheet" type="text/css" href="css/normalize.css">
 			<link rel="stylesheet" type="text/css" href="css/style.css">
 
-      <!-- load angular and angular route via CDN -->
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+      <script src="/bower_components/angular/angular.min.js"></script>
+      <script src="bower_components\angular-modal-service\dst\angular-modal-service.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
       <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 			<script src="js/appRoutes.js"></script>
@@ -26,10 +26,10 @@
                 </div>
                 <div id="menu">
 	                <ul>
-	                    <li id="home-link"><a href="#">Me</a></li>
-	                    <li id="work-link"><a href="#work">Work</a></li>
-	                    <li id="fun-link"><a href="#fun">Fun</a></li>
-	                    <li id="contact-link"><a href="#contact">Contact</a></li>
+	                    <li id="home-link"><a href="/">Me</a></li>
+	                    <li id="work-link"><a href="work">Work</a></li>
+	                    <li id="fun-link"><a href="fun">Fun</a></li>
+	                    <li id="contact-link"><a href="contact">Contact</a></li>
 
 	                </ul>
 	              </div>
@@ -55,6 +55,7 @@
 		<div id="clickresult"></div>
 	</div>
 	<div id="footer-right">
+	<!-- Hard-coded because Last.fm API isnt accepting new accounts -->
 		<div id="music"><i class="fa fa-music"></i>Currently coding to: <br>Sébastien Tellier — La Ritournelle</div>
 	</div>
 	<div class="clearer"></div>

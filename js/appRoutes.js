@@ -1,5 +1,5 @@
 console.log('loaded');
-var portfolioApp = angular.module('portfolioApp', ['ngRoute']);
+var portfolioApp = angular.module('portfolioApp', ['ngRoute', 'angularModalService']);
 
 portfolioApp.config(function($routeProvider, $locationProvider){
 	$routeProvider
