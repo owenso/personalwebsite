@@ -1,7 +1,7 @@
 console.log('loaded');
 var portfolioApp = angular.module('portfolioApp', ['ngRoute']);
 
-portfolioApp.config(function($routeProvider){
+portfolioApp.config(function($routeProvider, $locationProvider){
 	$routeProvider
   //for home page
 	.when('/', {
