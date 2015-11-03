@@ -1,0 +1,1 @@
+portfolioApp.controller("mainController",function(o){o.message="Everyone come and see how good I look!"}),portfolioApp.controller("workController",function(o){o.message="work!"}),portfolioApp.controller("funController",function(o){o.message="fun page! parallax! wooo!"}),portfolioApp.controller("contactController",function(o){o.message="Contact page"});
