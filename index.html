@@ -4,8 +4,6 @@
 	<meta charset="UTF-8">
 	<base href="/" />
 	<title>Owens O'Brien</title>
-      <!-- load bootstrap and fontawesome via CDN -->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
 			<link rel="stylesheet" type="text/css" href="css/normalize.css">
 			<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -13,37 +11,54 @@
       <!-- load angular and angular route via CDN -->
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+      <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 			<script src="js/appRoutes.js"></script>
 			<script src="js/controllers.js"></script>
+			<script src="js/app.js"></script>
+
 </head>
 <body ng-controller="mainController">
 
-            <nav class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="/">Owens O'Brien - Developer</a>
+            <nav>
+            	<div id="nav-sizer">
+                <div id="header-title">
+                    <h1><a href="/">Owens O'Brien - Web Developer</a></h1>
                 </div>
+                <div id="menu">
+	                <ul>
+	                    <li id="home-link"><a href="#">Me</a></li>
+	                    <li id="work-link"><a href="#work">Work</a></li>
+	                    <li id="fun-link"><a href="#fun">Fun</a></li>
+	                    <li id="contact-link"><a href="#contact">Contact</a></li>
 
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><i class="fa fa-home"></i> Me</a></li>
-                    <li><a href="#work"><i class="fa fa-shield"></i> Work</a></li>
-                    <li><a href="#fun"><i class="fa fa-comment"></i> Fun</a></li>
-                    <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
-
-                </ul>
-            </div>
+	                </ul>
+	              </div>
+	            </div>
+	            <div class="clearer"></div>
             </nav>
 
   <div id="main">
   	<div ng-view></div>
   </div>
 
-	<div id ="contact-info-div">
-		<p>Email: hi@owenso.com</p>
-		<p>Phone: 347-83-OWENS(9367)
-	</div>
 <footer>
-	<p>&copy; 2015 <a href=mailto:him@owenso.com>Owens O'Brien.</a>
+	<div id="footer-sizer">
+	<div id="footer-left">
+		<div id="signature">&copy; 2015 <a href=mailto:hi@owenso.com>Owens O'Brien.</a>
+		</div>
+		<div id="infolinks">
+			<i id="footerPhone" class="fa fa-phone"></i>
+			<i id="footerGithub" class="fa fa-github"></i>
+			<i id="footerEmail" class="fa fa-envelope"></i>
+		</div>
+		<br>
+		<div id="clickresult"></div>
+	</div>
+	<div id="footer-right">
+		<div id="music"><i class="fa fa-music"></i>Currently coding to: <br>Sébastien Tellier — La Ritournelle</div>
+	</div>
+	<div class="clearer"></div>
+	</div>
 </footer>
 </body>
 </html>
