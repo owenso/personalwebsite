@@ -1,5 +1,19 @@
-    <div>
-        <h1>Contact form</h1>
+            <div id="subwrapper">
+                <div id="contactpara">
+                    <p>Want to hire me? Give me some advice? Tell me a joke? Send me unreasonable amounts of spam? Feel free to use this form or the contact info below:</p>
+                    <ul>
+                    	<li><i class="fa fa-envelope"></i>hi&commat;owenso&period;com</li>
+                    	<li><i class="fa fa-phone"></i>347-83-OWENS(69367)</li>
+                    </ul>
+                </div>
+                <div id="form-messages"></div>
+                <form id="ajax-contact" method="post" action="mailer.php">
+                        <input type="text" placeholder="Name" id="name" name="name" required>
+                        <br>
+                        <input type="email" placeholder="Email" id="email" name="email" required>
+                        <br>
+                        <textarea id="message" placeholder="Message" name="message" required></textarea>
 
-        <p>{{ message }}</p>
-    </div>
+                        <button type="submit">Send</button>
+                </form>
+            </div>
