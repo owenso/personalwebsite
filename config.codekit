@@ -192,6 +192,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/me.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69660,
+		"inputAbbreviatedPath": "\/img\/me.jpg",
+		"outputAbbreviatedPath": "\/img\/me.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/sosnow.png": {
 		"fileType": 32768,
 		"ignore": 0,

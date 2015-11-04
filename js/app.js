@@ -15,5 +15,5 @@ var expandEmail = function(){
 };
 
 var expandGithub = function(){
-		$('#clickresult').hide().html('<a href="https://github.com/owenso" target="_blank">https://github.com/owenso</a>').fadeIn(400);
+		$('#clickresult').hide().html('<p><a href="https://github.com/owenso" target="_blank">https://github.com/owenso</a></p>').fadeIn(400);
 }

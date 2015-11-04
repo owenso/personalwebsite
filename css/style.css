@@ -98,7 +98,24 @@ a:active {
 }
 
 
+/***************    ME     *****************/
+#homepage-wrapper{
+	margin: 5% auto 0 auto;
+	width:80%;
+}
 
+#homepage-left{
+	float:left;
+	width:45%;
+}
+#homepage-right{
+	float:right;
+	width:45%;
+}
+#homepage-left img{
+	border-radius:50%;
+	width:300px;
+}
 /***************    WORK     *****************/
 #work-page img{
 	width:200px;
