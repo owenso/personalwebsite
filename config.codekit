@@ -159,6 +159,50 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/artbyessieo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.27413e+06,
+		"inputAbbreviatedPath": "\/img\/artbyessieo.png",
+		"outputAbbreviatedPath": "\/img\/artbyessieo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/chrome_ext.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117366,
+		"inputAbbreviatedPath": "\/img\/chrome_ext.png",
+		"outputAbbreviatedPath": "\/img\/chrome_ext.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/makemea.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 235966,
+		"inputAbbreviatedPath": "\/img\/makemea.png",
+		"outputAbbreviatedPath": "\/img\/makemea.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sosnow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 305023,
+		"inputAbbreviatedPath": "\/img\/sosnow.png",
+		"outputAbbreviatedPath": "\/img\/sosnow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
