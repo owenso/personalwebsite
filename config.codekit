@@ -163,7 +163,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.27413e+06,
+		"initialSize": 1.43039e+06,
 		"inputAbbreviatedPath": "\/img\/artbyessieo.png",
 		"outputAbbreviatedPath": "\/img\/artbyessieo.png",
 		"outputPathIsOutsideProject": 0,
@@ -214,6 +214,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/workouttracker.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 459796,
+		"inputAbbreviatedPath": "\/img\/workouttracker.png",
+		"outputAbbreviatedPath": "\/img\/workouttracker.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -240,6 +251,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/appRoutes.js",
 		"outputAbbreviatedPath": "\/js\/min\/appRoutes-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/contactform.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/contactform.js",
+		"outputAbbreviatedPath": "\/js\/min\/contactform-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -273,6 +295,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/appRoutes-min.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/appRoutes-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/contactform-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/contactform-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/contactform-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -418,7 +451,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "personalwebsite",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "pencil_darkGray"
 	},
 "projectSettings": {

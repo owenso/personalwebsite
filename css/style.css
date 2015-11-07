@@ -87,7 +87,11 @@ a:active {
     -o-transition: width 1s ease-in-out;
     transition: width 1s ease-in-out;
 }
-/***************    MAIN     *****************/
+/********************************************  
+
+										MAIN
+
+********************************************/
 #main{
 	width:80%;
 	margin:0 auto;
@@ -98,10 +102,15 @@ a:active {
 }
 
 
-/***************    ME     *****************/
+/********************************************
+    
+    ME
+
+*********************************************/
 #homepage-wrapper{
 	margin: 5% auto 0 auto;
 	width:80%;
+	font-size: 2.5vh;
 }
 
 #homepage-left{
@@ -116,7 +125,20 @@ a:active {
 	border-radius:50%;
 	width:300px;
 }
-/***************    WORK     *****************/
+
+
+
+/***********************************************
+
+
+    WORK
+
+
+************************************************/
+#work-page{
+	padding-top: 2%;
+	font-size: 2.5vh;
+}
 #work-page img{
 	width:200px;
 	text-align: center;
@@ -124,29 +146,43 @@ a:active {
 
 .project{
 	width: 300px;
-	padding:5px;
+	display:inline-block;
+	margin-bottom: 5%;
+}
+.project h3{
+	margin: 0 0 2% 0;
+}
+#ga-sum{
+	float:left;
+	width:30%;
 }
 #at-ga{
 	display: flex;
 	flex-wrap:wrap;
-	margin:0 auto;
+	text-align: center;
+}
+#not-ga-sum{
+	float:left;
+	width:30%;
 }
 #not-ga{
 	display:flex;
 	flex-wrap:wrap;
 	margin:0 auto;
+	text-align: center;
 }
 
 #overlay {
     position: fixed;
     left: 15%;
-    top: 25%;
-    padding: 25px;
+    top: 20%;
+    padding: 1% 2%;
     border: 2px solid black;
     background-color: #CFD8DC;
-    width: 70%;
-    height: 50%;
+    width: 70vw;
+    height: 45vh;
     z-index: 100;
+    font-size: 2.5vh;
 }
 #fade {
     position: fixed;
@@ -160,11 +196,16 @@ a:active {
     height: 100%;
     z-index: 90;
 }
+.modal h1{
+	margin: 0;
+}
 .modal img{
-	width:300px;
+	max-width:400px;
+	max-height: 90%;
+	height:auto;
 	float:left;
 	clear:right;
-	margin-right: 10px;
+	margin-right: 3vw;
 }
 .modal.ng-enter {
   transition: opacity .5s ease-out;
@@ -185,8 +226,10 @@ a:active {
 	color: #009688;
 }
 .xclose{
-	font-size: 30px;
-	float:right;
+	font-size: 6vh;
+	position: absolute;
+	top:2%;
+	right:2%;
 	-webkit-transition: -webkit-transform .8s ease-in-out;
   transition: transform .8s ease-in-out;
 }
@@ -194,7 +237,17 @@ a:active {
 	-webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-/***************    CONTACT   *****************/
+.modal-links{
+	position: absolute;
+	bottom:5%;
+	right:5%;
+	font-size: 3vh;
+}
+/**********************************************
+
+    CONTACT
+
+***********************************************/
 
 #contactpara {
 	float:left;
@@ -268,32 +321,36 @@ button:active {
     box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1) inset;
 }
 
-.success {
+#form-messages{
     padding: 1em;
+    margin-top: 5vh;
     margin-bottom: 0.75rem;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    text-align: center;
+
+}
+
+.success {
     color: #468847;
     background-color: #dff0d8;
     border: 1px solid #d6e9c6;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
 }
 
 .error {
-    padding: 1em;
-    margin-bottom: 0.75rem;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
     color: #b94a48;
     background-color: #f2dede;
     border: 1px solid rgba(185, 74, 72, 0.3);
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
 }
 
 
-/***************    FOOTER   *****************/
+/***************************************
+
+    FOOTER   
+
+****************************************/
 footer {
     text-decoration: none;
     background-color: #607D8B;
@@ -330,4 +387,77 @@ footer {
 #footer-right{
 	float:right;
 	display:inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.page.ng-leave  {
+    z-index:7777; 
+    -webkit-animation:slideOutLeft 0.5s both ease-in;
+    -moz-animation:slideOutLeft 0.5s both ease-in;
+    animation:slideOutLeft 0.5s both ease-in;  
+}
+.page.ng-enter  {
+    z-index:8888; 
+    -webkit-animation:slideInRight 0.5s both ease-in;
+    -moz-animation:slideInRight 0.5s both ease-in;
+    animation:slideInRight 0.5s both ease-in;  
+}
+
+@keyframes slideOutLeft {
+    to      { transform: translateX(-100%); }
+}
+@-moz-keyframes slideOutLeft {  
+    to      { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes slideOutLeft {
+    to      { -webkit-transform: translateX(-100%); }
+}
+
+/* slide in from the right */
+@keyframes slideInRight {
+    from    { transform:translateX(100%); }
+    to      { transform: translateX(0); }
+}
+@-moz-keyframes slideInRight {
+    from    { -moz-transform:translateX(100%); }
+    to      { -moz-transform: translateX(0); }
+}
+@-webkit-keyframes slideInRight {
+    from    { -webkit-transform:translateX(100%); }
+    to      { -webkit-transform: translateX(0); }
+}
+
+
+
+
+/***************************************
+
+							MEDIA QUERIES
+
+****************************************/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+ { 
+/************** WORK **************/
+#ga-sum{
+	float:left;
+	width:20%;
+}
+#not-ga-sum{
+	float:left;
+	width:20%;
+}
+
 }

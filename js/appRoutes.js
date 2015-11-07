@@ -24,5 +24,5 @@ portfolioApp.config(function($routeProvider, $locationProvider){
       controller: 'contactController'
   });
   //for non hash urls
-  $locationProvider.html5Mode(true);
+  // $locationProvider.html5Mode(true);
 });

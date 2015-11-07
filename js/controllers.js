@@ -1,6 +1,5 @@
 
 portfolioApp.controller('mainController', function($scope) {
-    $scope.message = 'Everyone come and see how good I look!';
     $('#home-link').addClass('selected-link');
     $('#work-link').removeClass('selected-link');
     $('#fun-link').removeClass('selected-link');
@@ -19,10 +18,6 @@ portfolioApp.controller('workController', function($scope, ModalService) {
         ModalService.showModal({
             templateUrl: '/pages/project_modals/blackjack.html',
             controller: "ModalController"
-        }).then(function(modal) {
-      modal.close.then(function(result) {
-        $scope.customResult = "All good!";
-            });
         });
     };
 
@@ -30,50 +25,30 @@ portfolioApp.controller('workController', function($scope, ModalService) {
         ModalService.showModal({
             templateUrl: '/pages/project_modals/artbyessieo.html',
             controller: "ModalController"
-        }).then(function(modal) {
-      modal.close.then(function(result) {
-        $scope.customResult = "All good!";
-            });
         });
     };
       $scope.showChromeWeather = function() {
         ModalService.showModal({
             templateUrl: '/pages/project_modals/chromeweatherext.html',
             controller: "ModalController"
-        }).then(function(modal) {
-      modal.close.then(function(result) {
-        $scope.customResult = "All good!";
-            });
         });
     };
       $scope.showMakemea = function() {
         ModalService.showModal({
             templateUrl: '/pages/project_modals/makemea.html',
             controller: "ModalController"
-        }).then(function(modal) {
-      modal.close.then(function(result) {
-        $scope.customResult = "All good!";
-            });
         });
     };
       $scope.showSosnow = function() {
         ModalService.showModal({
             templateUrl: '/pages/project_modals/sosnow.html',
             controller: "ModalController"
-        }).then(function(modal) {
-      modal.close.then(function(result) {
-        $scope.customResult = "All good!";
-            });
         });
     };
       $scope.showWorkoutapp = function() {
         ModalService.showModal({
             templateUrl: '/pages/project_modals/workoutapp.html',
             controller: "ModalController"
-        }).then(function(modal) {
-      modal.close.then(function(result) {
-        $scope.customResult = "All good!";
-            });
         });
     };
 });

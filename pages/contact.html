@@ -1,13 +1,14 @@
-            <div id="subwrapper">
+           <script src="../js/contactform.js"></script>
+            <div id="contact-wrapper">
                 <div id="contactpara">
                     <p>Want to hire me? Give me some advice? Tell me a joke? Send me unreasonable amounts of spam? Feel free to use this form or the contact info below:</p>
                     <ul>
                     	<li><i class="fa fa-envelope"></i>hi&commat;owenso&period;com</li>
                     	<li><i class="fa fa-phone"></i>347-83-OWENS(69367)</li>
                     </ul>
+                 <div id="form-messages" class="success">Thank You! Your message has been sent.</div>
                 </div>
-                <div id="form-messages"></div>
-                <form id="ajax-contact" method="post" action="mailer.php">
+                <form id="ajax-contact" method="post" action="pages/mailer.php">
                         <input type="text" placeholder="Name" id="name" name="name" required>
                         <br>
                         <input type="email" placeholder="Email" id="email" name="email" required>
