@@ -3,7 +3,22 @@ window.onload=function(){
 	$('#footerEmail').click(expandEmail);
 	$('#footerGithub').click(expandGithub);
 
+
 };
+
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: console.log('left key');
+        break;
+
+        case 39: console.log('right key');
+        break;
+
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
 
 
 var expandPhone = function(){

@@ -170,6 +170,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/artbyessieo_sm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8562,
+		"inputAbbreviatedPath": "\/img\/artbyessieo_sm.png",
+		"outputAbbreviatedPath": "\/img\/artbyessieo_sm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/chrome_ext.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -181,6 +192,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/chrome_ext_sm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9670,
+		"inputAbbreviatedPath": "\/img\/chrome_ext_sm.png",
+		"outputAbbreviatedPath": "\/img\/chrome_ext_sm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/makemea.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -188,6 +210,17 @@
 		"initialSize": 235966,
 		"inputAbbreviatedPath": "\/img\/makemea.png",
 		"outputAbbreviatedPath": "\/img\/makemea.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/makemea_sm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13540,
+		"inputAbbreviatedPath": "\/img\/makemea_sm.png",
+		"outputAbbreviatedPath": "\/img\/makemea_sm.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -214,6 +247,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/sosnow_sm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13730,
+		"inputAbbreviatedPath": "\/img\/sosnow_sm.png",
+		"outputAbbreviatedPath": "\/img\/sosnow_sm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/workouttracker.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -221,6 +265,17 @@
 		"initialSize": 459796,
 		"inputAbbreviatedPath": "\/img\/workouttracker.png",
 		"outputAbbreviatedPath": "\/img\/workouttracker.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/workouttracker_sm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19070,
+		"inputAbbreviatedPath": "\/img\/workouttracker_sm.png",
+		"outputAbbreviatedPath": "\/img\/workouttracker_sm.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
